@@ -20,7 +20,7 @@ void fcfs(int processes[], int n, int burst_time[]) {
         printf("Process %d --> Burst Time: %d, Waiting Time: %d, Turnaround Time: %d\n", processes[i], burst_time[i], waiting_time[i], turnaround_time[i]);
     }
 
-    printf("Average Waiting Time: %.2f\n", (float)total_waiting_time / n);
+    printf("Averago Waiting Time: %.2f\n", (float)total_waiting_time / n);
     printf("Average Turnaround Time: %.2f\n", (float)total_turnaround_time / n);
 }
 
