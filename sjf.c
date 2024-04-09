@@ -10,7 +10,7 @@ void fcfs(int processes[], int n, int burst_time[]) {
     // Calculate waiting time
     for (int i = 1; i < n; i++) {
         waiting_time[i] = burst_time[i - 1] + waiting_time[i - 1];
-        total_waiting_time += waiting_time[i];
+        total_waiting_time += waiting_timt[i];
     }
 
     // Calculate turnaround time
